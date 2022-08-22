@@ -1,0 +1,212 @@
+.navicon {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.navitemlink {
+    margin: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.navitemlink:hover {
+    color: #1dbf73;
+}
+
+.navprofilelogo {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.NavAmount {
+    margin: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.NavAmountsec {
+    border: 1px solid black;
+    margin-right: 5%;
+    margin-left: 2%;
+}
+
+.navbar-brand {
+    margin-left: 5%;
+}
+
+.category-box {
+    padding-left: 6%;
+    padding-right: 6%;
+    height: 30px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    overflow: hidden;
+}
+
+.category-item {
+    text-decoration: none;
+    margin-right: 1%;
+    color: #62646a;
+    width: auto;
+    float: left;
+}
+
+.category-item:hover {
+    text-decoration: 2px underline #1dbf73;
+    font-size: small;
+}
+
+.category-box2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+    text-align: center;
+    height: 250px;
+}
+
+.Box-postarequest {
+    width: 20%;
+    height: 200px;
+    background-color: #fafafa;
+    float:left;
+}
+
+.Box-postarequest-text {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.Box-postarequest-button {
+    border: 1px solid #1dbf73;
+    border-radius: 2px;
+    color: #1dbf73;
+    background-color: white;
+    font-size: medium;
+}
+
+.Slider1 {
+    width: 77%;
+    margin-left: 3%;
+    height: 200px;
+    background-image: url("https://i.ibb.co/myWKHH2/banner-background-image.webp");
+    float: right;
+    border-radius: 5px;
+}
+
+.Slider1-message {
+    width: 50%;
+}
+
+.Slider1-card {
+    width: 50%;
+}
+
+.Slider1-message h4{
+    color: white;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 3%;
+    font-size: larger;
+    float: left;
+}
+
+.Slider1-message1 {
+    padding-top: 8%;
+}
+
+.Slider1-message2 {
+    color: #ee80ae;
+}
+
+.Slider1-card {
+    float: right;
+    margin-top: -5%;
+}
+
+.Slider1-card-box {
+    width: 30%;
+    background-color: #1dbf73;
+    height: 150px;
+    float: left;
+    margin-left: 2%;
+    border-radius: 5px;
+}
+
+.Slider1-last-message {
+    color: white;
+    float: right;
+    padding-right: 30px;
+}
+
+.Slider1-last-message a {
+    color: white;
+    text-decoration: none;
+}
+
+.Slider1-last-message a:hover {
+    text-decoration: underline;
+}
+
+.topsellercategory {
+    border: 1px solid #3d3f42;
+    height: 300px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.topsellerheader {
+    height: 10px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.topsellerheader h4 {
+    font-size: larger;
+}
+
+.Footerdiv-main {
+    height: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.footer-subdiv {
+    width: 18%;
+    margin-right: 2%;
+    height: 350px;
+    float: left;
+}
+
+.footer-subdiv a {
+    font-size: small;
+    text-decoration: none;
+    color: #3d3f42;
+    margin-bottom: 5px;
+}
+
+.footer-subdiv a:hover {
+    font-size: medium;
+    text-decoration: underline;
+    color: #3d3f42;
+}
+
+.Footer-sub-topic {
+    font-size: small;
+    color: #62646a;
+}
+
+.tradmark-socials {
+    height: 50px;
+    border-top: 0.5px solid #62646a;
+    border: 1px solid #1dbf73;
+}
+
+
+.tradmark-div {
+
+}
