@@ -178,6 +178,7 @@
 .Footerdiv-main1 {
     height: 350px;
     border-bottom: 1px solid #62646a;
+    overflow: hidden;
 }
 
 .footer-subdiv {
@@ -219,6 +220,8 @@
 .social-div {
     width: 40%;
     float: left;
+    padding-top: 10px;
+    overflow: hidden;
 }
 
 .tradmark-div img {
@@ -233,4 +236,28 @@
     padding-left: 20px;
     color: #62646a;
     font-size: small;
+}
+
+.social-div button {
+    text-decoration: none;
+    border: none;
+    background-color: #fafafa;
+    font-size: small;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.social-div button:hover {
+    border-radius: 20px;
+    background-color: #d3d6df;
+}
+
+.social-div i {
+    margin-right: 2%;
+}
+
+
+.social-div a {
+    text-decoration: none;
+    color: #3d3f42;
 }
