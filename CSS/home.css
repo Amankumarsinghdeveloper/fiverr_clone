@@ -175,10 +175,15 @@
     margin-right: 5%;
 }
 
+.Footerdiv-main1 {
+    height: 350px;
+    border-bottom: 1px solid #62646a;
+}
+
 .footer-subdiv {
     width: 18%;
     margin-right: 2%;
-    height: 350px;
+    height: 100%;
     float: left;
 }
 
@@ -202,11 +207,30 @@
 
 .tradmark-socials {
     height: 50px;
-    border-top: 0.5px solid #62646a;
-    border: 1px solid #1dbf73;
+    width: 100%;
 }
 
 
 .tradmark-div {
+    width: 60%;
+    float: left;
+}
 
+.social-div {
+    width: 40%;
+    float: left;
+}
+
+.tradmark-div img {
+    width: 70px;
+    height: 40px;
+    float: left;
+}
+
+.tradmark-text {
+    padding-top: 12px;
+    float: left;
+    padding-left: 20px;
+    color: #62646a;
+    font-size: small;
 }
