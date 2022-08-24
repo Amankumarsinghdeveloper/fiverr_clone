@@ -1,0 +1,259 @@
+.navicon {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.navitemlink {
+    margin: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.navitemlink:hover {
+    color: #1dbf73;
+}
+
+.navprofilelogo {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.NavAmount {
+    margin: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.NavAmountsec {
+    border: 1px solid black;
+    margin-right: 5%;
+    margin-left: 2%;
+}
+
+.navbar-brand {
+    margin-left: 5%;
+}
+
+.category-item {
+    text-decoration: none;
+    margin-right: 1%;
+    color: #62646a;
+    width: auto;
+    float: left;
+}
+
+.category-item:hover {
+    text-decoration: 2px underline #1dbf73;
+    font-size: small;
+}
+
+.category-box2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+    height: 800px;
+    margin-bottom: 3%;
+}
+
+.Box-stats {
+    width: 100%;
+    height: 300px;
+    background-color: #e4e5e7;
+    float:left;
+    border-radius: 5px;
+    padding: 4%;
+    border-right: 0.5px solid #e4e5e7;
+    border-bottom: 0.5px solid #e4e5e7;
+}
+
+.Box-stats-profile {
+    border-bottom: 1px solid #62646a;
+}
+
+.Box-stats img {
+    width: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.stats-user-name {
+    padding-left: 4%;
+}
+
+.container1 {
+    width: 25%;
+    float: left;
+}
+
+.stats-na {
+    float: right;
+    width: 20%;
+    margin-right: 1%;
+    margin-top: 8%;
+}
+
+.Box-postarequest-text {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.Order-Details {
+    width: 72%;
+    margin-left: 3%;
+    height: 50px;
+    float: right;
+    border-radius: 5px;
+    background-color: #e4e5e7;
+    border-right: 0.5px solid #d3d6df;
+    border-bottom: 1px solid #d3d6df;
+    padding: 11px;
+}
+
+.Order-Details h5 {
+    margin-left: 5px;
+    float: left;
+    color: #3d3f42;
+}
+
+#Order-Deatils-dropdown {
+    float: right;
+    border: 0.5px solid #e4e5e7;
+    color: #95979d;
+}
+
+#Order-Deatils-dropdown select {
+    float: right;
+    color: #62646a;
+    font-size: large;
+    background-color: #e4e5e7;
+    border-radius: 5px;
+}
+
+.Order-Details-Amount {
+    color: #95979d;
+}
+
+.Footerdiv-main {
+    height: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Footerdiv-main1 {
+    height: 350px;
+    border-bottom: 1px solid #62646a;
+    overflow: hidden;
+}
+
+.footer-subdiv {
+    width: 18%;
+    margin-right: 2%;
+    height: 100%;
+    float: left;
+}
+
+.footer-subdiv a {
+    font-size: small;
+    text-decoration: none;
+    color: #3d3f42;
+    margin-bottom: 5px;
+}
+
+.footer-subdiv a:hover {
+    font-size: medium;
+    text-decoration: underline;
+    color: #3d3f42;
+}
+
+.Footer-sub-topic {
+    font-size: small;
+    color: #62646a;
+}
+
+.tradmark-socials {
+    height: 50px;
+    width: 100%;
+}
+
+
+.tradmark-div {
+    width: 60%;
+    float: left;
+}
+
+.social-div {
+    width: 40%;
+    float: left;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.tradmark-div img {
+    width: 70px;
+    height: 40px;
+    float: left;
+}
+
+.tradmark-text {
+    padding-top: 12px;
+    float: left;
+    padding-left: 20px;
+    color: #62646a;
+    font-size: small;
+}
+
+.social-div button {
+    text-decoration: none;
+    border: none;
+    background-color: #fafafa;
+    font-size: small;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.social-div button:hover {
+    border-radius: 20px;
+    background-color: #d3d6df;
+}
+
+.social-div i {
+    margin-right: 2%;
+}
+
+
+.social-div a {
+    text-decoration: none;
+    color: #3d3f42;
+}
+
+.Box-indox {
+    width: 100%;
+    height: 300px;
+    background-color: #e4e5e7;
+    float:left;
+    border-radius: 5px;
+    padding: 4%;
+    border-right: 0.5px solid #e4e5e7;
+    border-bottom: 0.5px solid #e4e5e7;
+    margin-top: 20px;
+}
+
+.Box-indox-header {
+    border-bottom: 1px solid #62646a;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.stats-indox-name {
+    float: left;
+}
+
+.stats-indox-view {
+    float: right;
+    margin-right: 10px;
+}
