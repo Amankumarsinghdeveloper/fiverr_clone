@@ -1,607 +1,563 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Fiverr.com</title>
+    <link rel="icon" href="https://i.ibb.co/pw8BvDs/Fiverr-Logo.png" />
 
-  <title>Fiverr: Home</title>
-  <link rel="icon" href="https://i.ibb.co/pw8BvDs/Fiverr-Logo.png" />
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="CSS/landing.css" />
+    <link rel="stylesheet" href="CSS/home.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- OWL Carousel -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-  <!-- Social Icon CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
+<body class="">
+    <div class="coupon-page">
+        <div class="coupon-box">
+            <h1>PUJA OFFER<span class="close-img"><ion-icon name="close-circle-outline" onclick="closetab()"></ion-icon></span>
+            </h1>
+            <p>We are giving<br><span class="coupon-50">50% OFF</span><br>on every Order</p>
+            <img src="images/50.png">
+            <h3>USE CODE PUJASALE22</h3>
 
-  <!-- CSS FILES -->
-  <link rel="stylesheet" href="CSS/home.css" </head>
+            <div class="copy-link-box">
+            <div class="copy-link">
+                <input type="text" class="copy-link-input" value="PUJASALE22" readonly>
+                <button type="button" class="copy-link-button"><ion-icon name="copy-outline"></ion-icon>
+              </div>
+              </div>
+        </div>
+    </div>
+    <div class="mainslider">
+        <div class="navbar-div">
+            <header class="header">
+                <div class="mobile-navbar-btn">
+                    <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+                    <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+                </div>
 
-<body>
+                <img src="https://i.ibb.co/f1WPBXS/Fiverr-Logo-1.png" alt="Fiverr Logo" class="nav-logo" />
 
-  <!-- Website NavBar Starts From Here -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="https://i.ibb.co/f1WPBXS/Fiverr-Logo-1.png" alt="" width="100" height="50"
-          class="d-inline-block align-text-top" style="float:left;">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <form class="d-flex" style="width: 40%;">
-          <input class="form-control me-2" type="search" placeholder="What service are you looking for Today?"
-            aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-        <ul class="nav navbar-nav">
-          <li><a href="#">
-              <img src="https://i.ibb.co/6H51B1j/notification.png" class="navicon">
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="https://i.ibb.co/XfHwkP2/email.png" class="navicon">
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="https://i.ibb.co/PjJZkJT/like.png" class="navicon" alt="Like">
-            </a>
-          </li>
-          <li>
-            <a href="#" class="navitemlink">Orders</a>
-          </li>
-          <li>
-            <a href="selling.html" class="navitemlink">Switch to Selling</a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="https://i.ibb.co/pw8BvDs/Fiverr-Logo.png" class="navprofilelogo">
-            </a>
-          </li>
+                <nav class="navbar">
+                    <ul class="navbar-list">
+                        <li><a class="navbar-link" href="#">Fiverr Business</a></li>
+                        <li><a class="navbar-link" href="#">Explore</a></li>
+                        <li><a class="navbar-link" href="#">Become a Seller</a></li>
+                        <li><a class="navbar-link" href="#">Sign in</a></li>
+                        <li><a class="navbar-link join-button" href="#">Join</a></li>
+                    </ul>
+                </nav>
 
-          <li>
-            <div class="NavAmountsec">
-              <a href="#" class="NavAmount">₹0.00</a>
+                <div class="light_dark-btn">
+                    <ion-icon name="moon-outline" class="light_dark-icon"></ion-icon>
+                    <ion-icon name="sunny-outline" class="light_dark-icon"></ion-icon>
+                </div>
+
+            </header>
+        </div>
+        <div class="mainslider-content">
+            <div class="mainslider-content-header">
+                <span>Find the perfect <i>freelance</i> services for your business</span>
             </div>
-          </li>
+
+            <div class="content-search-box">
+                <div class="conten-search-box-icon">
+                    <i class="fa fa-search"></i>
+                </div>
+
+                <div class="conten-search-box-input">
+                    <input type="text" placeholder="Try &quot;building mobile app&quot;">
+                </div>
+
+                <div class="content-search-box-input-button">
+                    <button>Search</button>
+                </div>
+            </div>
+
+            <div class="content-search-popular">
+                <div class="search-popular-head">
+                    <div class="search-popular-head-topic">
+                        Popular :
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">Website Design</a>
+                        </li>
+                        <li>
+                            <a href="#">Wordpress</a>
+                        </li>
+                        <li>
+                            <a href="#">Logo Design</a>
+                        </li>
+                        <li>
+                            <a href="#">Video Editing</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="mainslider-image">
+
+        </div>
+    </div>
+
+    <div class="content-trusted">
+        <span>
+            Trusted by:
+        </span>
+        <ul>
+            <li>
+                <a>FACEBOOK</a>
+            </li>
+            <li>
+                <a>GOOGLE</a>
+            </li>
+            <li>
+                <a>NETFLIX</a>
+            </li>
+            <li>
+                <a>P&G</a>
+            </li>
+            <li>
+                <a>PAYPAL</a>
+            </li>
         </ul>
-      </div>
     </div>
-  </nav>
-  <!-- Navbar Ends Here -->
 
-  <!-- Category -->
-  <div class="category-box">
-    <div>
-      <a href="#" class="category-item">Graphics & Design</a>
-    </div>
-    <div>
-      <a href="#" class="category-item">Digital Marketing</a>
-    </div>
-    <div>
-      <a href="#" class="category-item">Writing & Translation</a>
-    </div>
-    <div>
-      <a href="#" class="category-item">Video & Animation</a>
-    </div>
-    <div>
-      <a href="#" class="category-item">Music & Audio</a>
-    </div>
-    <div>
-      <a href="#" class="category-item">Programming & Tech</a>
-    </div>
-    <div>
-      <a href="#" class="category-item">Business</a>
-    </div>
-    <div>
-      <a href="#" class="category-item">Lifestyle</a>
-    </div>
-    <div>
-      <a href="#" class="category-item">Trending</a>
-    </div>
-  </div>
-  <!-- Categroy Section End -->
-
-
-  <!-- Slider & Post a request Start -->
-  <div class="category-box2">
-    <div class="Box-postarequest">
-      <h5 class="Box-postarequest-text">Hi User,</h5>
-
-      <button class="Box-postarequest-button">Post a request</button>
-    </div>
-    <div class="Slider1">
-      <div class="Slider1-message">
-        <h4 class="Slider1-message1">User,</h4>
-        <h4>Here's what <i class="Slider1-message2">you</i> need to brand your business</h4>
-      </div>
-
-      <div class="Slider1-card">
-        <div>
-          <div class="Slider1-card-box">
-            <p>Box</p>
-          </div>
+    <div class="popular-service-div">
+        <div class="popular-service-div-head">
+            <span>Popular professional services</span>
         </div>
-        <div>
-          <div class="Slider1-card-box">
-            <p>Box</p>
-          </div>
-        </div>
-        <div>
-          <div class="Slider1-card-box">
-            <p>Box</p>
-          </div>
-        </div>
-        <div class="Slider1-last-message">
-          <a href="#">
-            <p>Learn How →</p>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Slider & Post a request  End -->
-
-
-
-  <!-- Top Seller Category Start -->
-  <div class="topsellercategory">
-    <div class="topsellerheader">
-      <h4>Top Sellers</h4>
-    </div>
-
-    <!-- Box 1 -->
-    <div class="projectbox">
-      <div>
-        <img src="images/9a2164f3fdbebefab0911812e37fad067f856729.webp" alt="Website" style="width: 100%;" />
-      </div>
-      <div class="projectbox-topic">
-        <div class="category_logo">
-          <img src="https://i.ibb.co/pw8BvDs/Fiverr-Logo.png" alt="Logo" />
-        </div>
-        <div class="category_username">
-          <a href="#">Floroliva</a>
-        </div>
-      </div>
-      <div class="category_description">
-        <p>
-          I will design premium logo
-        </p>
-      </div>
-      <div class="category_price-box">
-        <div class="category_price-fav-main">
-          <div class="category_price-fav">
-            <div class="category_price-fav-logo">
-              <img src="images/layout-text-sidebar-reverse.svg" alt="Logo" />
+        <div class="popular-service-div-cards">
+            <div class="owl-carousel">
+                <div class="item">
+                    <din class="item-card">
+                        <div class="item-pic-head">
+                            <h4>Unlock growth online<br>
+                                <span>SEO</span>
+                            </h4>
+                        </div><img src="https://i.ibb.co/1TT1tg8/seo-2x.webp" alt="HTML" />
+                    </din>
+                </div>
+                <div class="item">
+                    <din class="item-card">
+                        <div class="item-pic-head">
+                            <h4>Color your dreams<br>
+                                <span>Illustration</span>
+                            </h4>
+                        </div><img src="https://i.ibb.co/hVv1fLw/illustration-2x.webp" alt="HTML" />
+                    </din>
+                </div>
+                <div class="item">
+                    <din class="item-card">
+                        <div class="item-pic-head">
+                            <h4>Go global<br>
+                                <span>Translation</span>
+                            </h4>
+                        </div><img src="https://i.ibb.co/pL1S1zP/translation-2x.webp" alt="HTML" />
+                    </din>
+                </div>
+                <div class="item">
+                    <din class="item-card">
+                        <div class="item-pic-head">
+                            <h4>Learn your business<br>
+                                <span>Data Entry</span>
+                            </h4>
+                        </div><img src="https://i.ibb.co/xDKcj0S/data-entry-2x.webp" alt="HTML" />
+                    </din>
+                </div>
+                <div class="item">
+                    <din class="item-card">
+                        <div class="item-pic-head">
+                            <h4>Show your Story<br>
+                                <span>Book Covers</span>
+                            </h4>
+                        </div><img src="https://i.ibb.co/pJzcXG6/book-covers-2x.webp" alt="HTML" />
+                    </din>
+                </div>
+                <div class="item">
+                    <din class="item-card">
+                        <div class="item-pic-head">
+                            <h4>Build your brand<br>
+                                <span>Logo Design</span>
+                            </h4>
+                        </div><img src="https://i.ibb.co/b3TPGyG/logo-design-2x.webp" alt="HTML" />
+                    </din>
+                </div>
+                <div class="item">
+                    <din class="item-card">
+                        <div class="item-pic-head">
+                            <h4>Share your message<br>
+                                <span>Voice Over</span>
+                            </h4>
+                        </div><img src="https://i.ibb.co/txSr109/voiceover-2x.webp" alt="HTML" />
+                    </din>
+                </div>
+                <div class="item">
+                    <din class="item-card">
+                        <div class="item-pic-head">
+                            <h4>Engage your audience<br>
+                                <span>Video Explainer</span>
+                            </h4>
+                        </div><img src="https://i.ibb.co/nQdLrFM/animated-explainer-2x.jpg" alt="HTML" />
+                    </din>
+                </div>
+                <div class="item">
+                    <din class="item-card">
+                        <div class="item-pic-head">
+                            <h4>Customize your site<br>
+                                <span>WordPress</span>
+                            </h4>
+                        </div><img src="https://i.ibb.co/ZJP28JS/wordpress-2x.webp" alt="HTML" />
+                    </din>
+                </div>
+                <div class="item">
+                    <din class="item-card">
+                        <div class="item-pic-head">
+                            <h4>Reach more customers<br>
+                                <span>Social Media</span>
+                            </h4>
+                        </div><img src="https://i.ibb.co/TrS9pxf/social-2x.webp" alt="HTML" />
+                    </din>
+                </div>
             </div>
-            <div class="category_price-fav-logo">
-              <img src="images/heart.svg" alt="Logo" />
-            </div>
-          </div>
-          <div class="category_price-head">
-            <p>STARTING AT</p>
-          </div>
         </div>
-        <div class="category_price">
-          <p>₹54,274</p>
-        </div>
-      </div>
     </div>
 
-    <!-- Box 2 -->
-    <div class="projectbox">
-      <div>
-        <img src="images/9a2164f3fdbebefab0911812e37fad067f856729.webp" alt="Website" style="width: 100%;" />
-      </div>
-      <div class="projectbox-topic">
-        <div class="category_logo">
-          <img src="https://i.ibb.co/pw8BvDs/Fiverr-Logo.png" alt="Logo" />
-        </div>
-        <div class="category_username">
-          <a href="#">Floroliva</a>
-        </div>
-      </div>
-      <div class="category_description">
-        <p>
-          I will design premium logo
-        </p>
-      </div>
-      <div class="category_price-box">
-        <div class="category_price-fav-main">
-          <div class="category_price-fav">
-            <div class="category_price-fav-logo">
-              <img src="images/layout-text-sidebar-reverse.svg" alt="Logo" />
-            </div>
-            <div class="category_price-fav-logo">
-              <img src="images/heart.svg" alt="Logo" />
-            </div>
-          </div>
-          <div class="category_price-head">
-            <p>STARTING AT</p>
-          </div>
-        </div>
-        <div class="category_price">
-          <p>₹54,274</p>
-        </div>
-      </div>
-    </div>
+    <div class="our-features-div">
+        <div class="our-features-div-content">
+            <h2>A whole world of freelance talent at your fingertips</h2>
 
-    <!-- Box 3 -->
-    <div class="projectbox">
-      <div>
-        <img src="images/9a2164f3fdbebefab0911812e37fad067f856729.webp" alt="Website" style="width: 100%;" />
-      </div>
-      <div class="projectbox-topic">
-        <div class="category_logo">
-          <img src="https://i.ibb.co/pw8BvDs/Fiverr-Logo.png" alt="Logo" />
-        </div>
-        <div class="category_username">
-          <a href="#">Floroliva</a>
-        </div>
-      </div>
-      <div class="category_description">
-        <p>
-          I will design premium logo
-        </p>
-      </div>
-      <div class="category_price-box">
-        <div class="category_price-fav-main">
-          <div class="category_price-fav">
-            <div class="category_price-fav-logo">
-              <img src="images/layout-text-sidebar-reverse.svg" alt="Logo" />
-            </div>
-            <div class="category_price-fav-logo">
-              <img src="images/heart.svg" alt="Logo" />
-            </div>
-          </div>
-          <div class="category_price-head">
-            <p>STARTING AT</p>
-          </div>
-        </div>
-        <div class="category_price">
-          <p>₹54,274</p>
-        </div>
-      </div>
-    </div>
+            <ul>
+                <li>
+                    <h5><span><img src="https://i.ibb.co/s67vk9g/check-mark.png" alt="Tick"></img></span>The best for
+                        every budget</h5>
 
-    <!-- Box 4 -->
-    <div class="projectbox">
-      <div>
-        <img src="images/9a2164f3fdbebefab0911812e37fad067f856729.webp" alt="Website" style="width: 100%;" />
-      </div>
-      <div class="projectbox-topic">
-        <div class="category_logo">
-          <img src="https://i.ibb.co/pw8BvDs/Fiverr-Logo.png" alt="Logo" />
-        </div>
-        <div class="category_username">
-          <a href="#">Floroliva</a>
-        </div>
-      </div>
-      <div class="category_description">
-        <p>
-          I will design premium logo
-        </p>
-      </div>
-      <div class="category_price-box">
-        <div class="category_price-fav-main">
-          <div class="category_price-fav">
-            <div class="category_price-fav-logo">
-              <img src="images/layout-text-sidebar-reverse.svg" alt="Logo" />
-            </div>
-            <div class="category_price-fav-logo">
-              <img src="images/heart.svg" alt="Logo" />
-            </div>
-          </div>
-          <div class="category_price-head">
-            <p>STARTING AT</p>
-          </div>
-        </div>
-        <div class="category_price">
-          <p>₹54,274</p>
-        </div>
-      </div>
-    </div>
-  </div>
+                    <p>Find high-quality services at every price point. No hourly rates, just project-based pricing.</p>
+                </li>
 
+                <li>
+                    <h5><span><img src="https://i.ibb.co/s67vk9g/check-mark.png" alt="Tick"></img></span>Quality work
+                        done quickly</h5>
 
+                    <p>Find the right freelancer to begin working on your project within minutes.</p>
+                </li>
 
-  <!-- Recent Browser Category Start -->
-  <div class="topsellercategory">
-    <div class="topsellerheader">
-      <h4>Recent Browser</h4>
+                <li>
+                    <h5><span><img src="https://i.ibb.co/s67vk9g/check-mark.png" alt="Tick"></img></span>Protected
+                        payments, every time</h5>
+
+                    <p>Always know what you'll pay upfront. Your payment isn't released until you approve the work.</p>
+                </li>
+
+                <li>
+                    <h5><span><img src="https://i.ibb.co/s67vk9g/check-mark.png" alt="Tick"></img></span>24/7 support
+                    </h5>
+
+                    <p>Questions? Our round-the-clock support team is available to help anytime, anywhere.</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="our-features-div-video">
+            <img src="https://i.ibb.co/4JJr1RX/selling-proposition-still-1400-x1.webp" alt="pic"> </img>
+        </div>
     </div>
 
 
-    <!-- Box 1 -->
-    <div class="projectbox">
-      <div>
-        <img src="images/9a2164f3fdbebefab0911812e37fad067f856729.webp" alt="Website" style="width: 100%;" />
-      </div>
-      <div class="projectbox-topic">
-        <div class="category_logo">
-          <img src="https://i.ibb.co/pw8BvDs/Fiverr-Logo.png" alt="Logo" />
-        </div>
-        <div class="category_username">
-          <a href="#">Floroliva</a>
-        </div>
-      </div>
-      <div class="category_description">
-        <p>
-          I will design premium logo
-        </p>
-      </div>
-      <div class="category_price-box">
-        <div class="category_price-fav-main">
-          <div class="category_price-fav">
-            <div class="category_price-fav-logo">
-              <img src="images/layout-text-sidebar-reverse.svg" alt="Logo" />
-            </div>
-            <div class="category_price-fav-logo">
-              <img src="images/heart.svg" alt="Logo" />
-            </div>
-          </div>
-          <div class="category_price-head">
-            <p>STARTING AT</p>
-          </div>
-        </div>
-        <div class="category_price">
-          <p>₹54,274</p>
-        </div>
-      </div>
+    <div class="marketplace-div">
+        <h1>Explore the marketplace</h1>
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="images/graphics-design.d32a2f8.svg" alt="pic"> </img><span>Graphics & Design</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="images/online-marketing.74e221b.svg" alt="pic"> </img><span>Digital Marketing</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="images/writing-translation.32ebe2e.svg" alt="pic"> </img><span>Writing &
+                        Translation</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="images/video-animation.f0d9d71.svg" alt="pic"> </img><span>Video & Animation</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="images/music-audio.320af20.svg" alt="pic"> </img><span>Music & Audio</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="images/programming.9362366.svg" alt="pic"> </img><span>Programming & Tech</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="images/business.bbdf319.svg" alt="pic"> </img><span>Business</span>
+                </a>
+            </li>
+
+            <li>
+                <a>
+                    <img src="images/lifestyle.745b575.svg" alt="pic"> </img><span>Lifestyle</span>
+                </a href="#">
+            </li>
+
+            <li>
+                <a>
+                    <img src="images/data.718910f.svg" alt="pic"> </img><span>Data</span>
+                </a>
+            </li>
+        </ul>
     </div>
 
-    <!-- Box 2 -->
-    <div class="projectbox">
-      <div>
-        <img src="images/9a2164f3fdbebefab0911812e37fad067f856729.webp" alt="Website" style="width: 100%;" />
-      </div>
-      <div class="projectbox-topic">
-        <div class="category_logo">
-          <img src="https://i.ibb.co/pw8BvDs/Fiverr-Logo.png" alt="Logo" />
+
+    <div class="fiver-business-div">
+        <div class="fiver-business-div-content">
+            <h1>Fiverr Business.</h1> <span>NEW</span>
+            <h2>A business solution designed for teams</h2>
+
+            <p>Upgrade to a curated experience packed with tools and benefits, dedicated to businesses</p>
+
+            <ul>
+                <li>
+                    <h5><img src="https://i.ibb.co/s67vk9g/check-mark.png" alt="Tick"></img>TConnect to freelancers with
+                        proven business experience</h5>
+                </li>
+
+                <li>
+                    <h5><img src="https://i.ibb.co/s67vk9g/check-mark.png" alt="Tick"></img>Get matched with the perfect
+                        talent by a customer success manager</h5>
+
+                </li>
+
+                <li>
+                    <h5><img src="https://i.ibb.co/s67vk9g/check-mark.png" alt="Tick"></img>Manage teamwork and boost
+                        productivity with one powerful workspace</h5>
+                </li>
+            </ul>
+
+            <button>Explore Fiverr Business</button>
+
         </div>
-        <div class="category_username">
-          <a href="#">Floroliva</a>
+
+        <div class="fiver-business-div-banner">
+            <img src="images/business-desktop-870-x1.webp" alt="Business-pic">
         </div>
-      </div>
-      <div class="category_description">
-        <p>
-          I will design premium logo
-        </p>
-      </div>
-      <div class="category_price-box">
-        <div class="category_price-fav-main">
-          <div class="category_price-fav">
-            <div class="category_price-fav-logo">
-              <img src="images/layout-text-sidebar-reverse.svg" alt="Logo" />
-            </div>
-            <div class="category_price-fav-logo">
-              <img src="images/heart.svg" alt="Logo" />
-            </div>
-          </div>
-          <div class="category_price-head">
-            <p>STARTING AT</p>
-          </div>
-        </div>
-        <div class="category_price">
-          <p>₹54,274</p>
-        </div>
-      </div>
     </div>
 
-    <!-- Box 3 -->
-    <div class="projectbox">
-      <div>
-        <img src="images/9a2164f3fdbebefab0911812e37fad067f856729.webp" alt="Website" style="width: 100%;" />
-      </div>
-      <div class="projectbox-topic">
-        <div class="category_logo">
-          <img src="https://i.ibb.co/pw8BvDs/Fiverr-Logo.png" alt="Logo" />
+
+    <div class="fiver-logomaker-div">
+        <div class="fiver-logomaker-div-content">
+            <h1>Fiverr Logo Maker.</h1>
+            <h2>Make an incredible logo
+                in minutes</h2>
+
+            <p>Pre-designed by top talent. Just add your touch.</p>
+            <button>Try Fiverr Logo Maker</button>
+
         </div>
-        <div class="category_username">
-          <a href="#">Floroliva</a>
+
+        <div class="fiver-logomaker-div-banner">
         </div>
-      </div>
-      <div class="category_description">
-        <p>
-          I will design premium logo
-        </p>
-      </div>
-      <div class="category_price-box">
-        <div class="category_price-fav-main">
-          <div class="category_price-fav">
-            <div class="category_price-fav-logo">
-              <img src="images/layout-text-sidebar-reverse.svg" alt="Logo" />
-            </div>
-            <div class="category_price-fav-logo">
-              <img src="images/heart.svg" alt="Logo" />
-            </div>
-          </div>
-          <div class="category_price-head">
-            <p>STARTING AT</p>
-          </div>
-        </div>
-        <div class="category_price">
-          <p>₹54,274</p>
-        </div>
-      </div>
     </div>
 
-    <!-- Box 4 -->
-    <div class="projectbox">
-      <div>
-        <img src="images/9a2164f3fdbebefab0911812e37fad067f856729.webp" alt="Website" style="width: 100%;" />
-      </div>
-      <div class="projectbox-topic">
-        <div class="category_logo">
-          <img src="https://i.ibb.co/pw8BvDs/Fiverr-Logo.png" alt="Logo" />
+    <div class="freelancer-inspired">
+
+    </div>
+
+    <div class="get-started-div">
+        <div class="get-started-div-content">
+            <h1>
+                Find the talent needed to get your business growing.
+            </h1>
+
+            <button>Get Started</button>
         </div>
-        <div class="category_username">
-          <a href="#">Floroliva</a>
+        <div class="get-started-div-pic">
+
         </div>
-      </div>
-      <div class="category_description">
-        <p>
-          I will design premium logo
-        </p>
-      </div>
-      <div class="category_price-box">
-        <div class="category_price-fav-main">
-          <div class="category_price-fav">
-            <div class="category_price-fav-logo">
-              <img src="images/layout-text-sidebar-reverse.svg" alt="Logo" />
+    </div>
+
+
+    <div class="gap">
+    </div>
+
+    <!-- Footer -->
+    <div class="Footerdiv-main">
+        <div class="Footerdiv-main1">
+            <div class="footer-subdiv">
+                <h6>Categories</h6>
+                <a href="#">Graphics & Design</a> <br>
+                <a href="#">Digital Marketing</a> <br>
+                <a href="#">Writing & Translation</a> <br>
+                <a href="#">Video & Animation</a> <br>
+                <a href="#">Music & Audio</a> <br>
+                <a href="#">Programming & Tech</a> <br>
+                <a href="#">Data</a> <br>
+                <a href="#">Business</a> <br>
+                <a href="#">Lifestyle</a> <br>
+                <a href="#">Sitemap</a> <br>
             </div>
-            <div class="category_price-fav-logo">
-              <img src="images/heart.svg" alt="Logo" />
+
+            <div class="footer-subdiv">
+                <h6>About</h6>
+                <a href="#">Careers</a> <br>
+                <a href="#">Press & News</a> <br>
+                <a href="#">Partnerships</a> <br>
+                <a href="#">Privacy Policy</a> <br>
+                <a href="#">Terms of Service</a> <br>
+                <a href="#">Intellectual Property Claims</a> <br>
+                <a href="#">Investor Relations</a> <br>
             </div>
-          </div>
-          <div class="category_price-head">
-            <p>STARTING AT</p>
-          </div>
+
+            <div class="footer-subdiv">
+                <h6>Support</h6>
+                <a href="#">Help & Support</a> <br>
+                <a href="#">Trust & Safety</a> <br>
+                <a href="#">Partnerships</a> <br>
+                <a href="#">Selling on Fiverr</a> <br>
+                <a href="#">Buying on Fiverr</a> <br>
+            </div>
+
+            <div class="footer-subdiv">
+                <h6>Community</h6>
+                <a href="#">Events</a> <br>
+                <a href="#">Blog</a> <br>
+                <a href="#">Forum</a> <br>
+                <a href="#">Community Standards</a> <br>
+                <a href="#">Podcast</a> <br>
+                <a href="#">Affiliates</a> <br>
+                <a href="#">Invite a Friend</a> <br>
+                <a href="#">Become a Seller</a> <br>
+            </div>
+
+            <div class="footer-subdiv">
+                <h6>More From Fiverr</h6>
+                <a href="#">Fiverr Pro</a> <br>
+                <a href="#">Fiverr Studios</a> <br>
+                <a href="#">Fiverr Logo Maker</a> <br>
+                <a href="#">Fiverr Guides</a> <br>
+                <a href="#">Get Inspired</a> <br>
+                <a href="#">Fiverr Select</a> <br>
+                <a href="#">ClearVoice</a> <br>
+                <a href="#">Fiverr Workspace</a> <br>
+                <a href="#">Learn</a> <br>
+                <a href="#">Working Not Working</a> <br>
+            </div>
         </div>
-        <div class="category_price">
-          <p>₹54,274</p>
+        <div class="tradmark-socials">
+            <div class="tradmark-div">
+                <img src="https://i.ibb.co/f1WPBXS/Fiverr-Logo-1.png" alt="tradmark">
+                <div class="tradmark-text">
+                    <p>
+                        <span>&#169 Aman Project. 2022</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="social-div">
+
+                <!-- Twitter -->
+                <a href="#">
+                    <i class="fa fa-twitter" style="font-size:24px"></i>
+                </a>
+
+                <!-- Instagram -->
+                <a href="#">
+                    <i class="fa fa-instagram" style="font-size:24px"></i>
+                </a>
+
+                <!-- Facebook -->
+                <a href="#">
+                    <i class="fa fa-facebook-square" style="font-size:24px"></i>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="#">
+                    <i class="fa fa-linkedin-square" style="font-size:24px"></i>
+                </a>
+
+
+                <!-- Pinterest -->
+                <a href="#">
+                    <i class="fa fa-pinterest" style="font-size:24px"></i>
+                </a>
+
+                <button href="#"><i class="fa fa-ioxhost" style="font-size:18px"><span>English</span></i></button>
+
+                <button href="#"><i class="fa fa-dollar" style="font-size:18px"><span>Currency</span></i></button>
+
+
+                <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+                <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 
-  <hr>
-
-  <!-- Footer -->
-  <div class="Footerdiv-main">
-    <div class="Footerdiv-main1">
-      <div class="footer-subdiv">
-        <h6>Categories</h6>
-        <a href="#">Graphics & Design</a> <br>
-        <a href="#">Digital Marketing</a> <br>
-        <a href="#">Writing & Translation</a> <br>
-        <a href="#">Video & Animation</a> <br>
-        <a href="#">Music & Audio</a> <br>
-        <a href="#">Programming & Tech</a> <br>
-        <a href="#">Data</a> <br>
-        <a href="#">Business</a> <br>
-        <a href="#">Lifestyle</a> <br>
-        <a href="#">Sitemap</a> <br>
-      </div>
-
-      <div class="footer-subdiv">
-        <h6>About</h6>
-        <a href="#">Careers</a> <br>
-        <a href="#">Press & News</a> <br>
-        <a href="#">Partnerships</a> <br>
-        <a href="#">Privacy Policy</a> <br>
-        <a href="#">Terms of Service</a> <br>
-        <a href="#">Intellectual Property Claims</a> <br>
-        <a href="#">Investor Relations</a> <br>
-      </div>
-
-      <div class="footer-subdiv">
-        <h6>Support</h6>
-        <a href="#">Help & Support</a> <br>
-        <a href="#">Trust & Safety</a> <br>
-        <a href="#">Partnerships</a> <br>
-        <a href="#">Selling on Fiverr</a> <br>
-        <a href="#">Buying on Fiverr</a> <br>
-      </div>
-
-      <div class="footer-subdiv">
-        <h6>Community</h6>
-        <a href="#">Events</a> <br>
-        <a href="#">Blog</a> <br>
-        <a href="#">Forum</a> <br>
-        <a href="#">Community Standards</a> <br>
-        <a href="#">Podcast</a> <br>
-        <a href="#">Affiliates</a> <br>
-        <a href="#">Invite a Friend</a> <br>
-        <a href="#">Become a Seller</a> <br>
-      </div>
-
-      <div class="footer-subdiv">
-        <h6>More From Fiverr</h6>
-        <a href="#">Fiverr Pro</a> <br>
-        <a href="#">Fiverr Studios</a> <br>
-        <a href="#">Fiverr Logo Maker</a> <br>
-        <a href="#">Fiverr Guides</a> <br>
-        <a href="#">Get Inspired</a> <br>
-        <a href="#">Fiverr Select</a> <br>
-        <a href="#">ClearVoice</a> <br>
-        <a href="#">Fiverr Workspace</a> <br>
-        <a href="#">Learn</a> <br>
-        <a href="#">Working Not Working</a> <br>
-      </div>
-    </div>
-    <div class="tradmark-socials">
-      <div class="tradmark-div">
-        <img src="https://i.ibb.co/f1WPBXS/Fiverr-Logo-1.png">
-        <div class="tradmark-text">
-          <p>
-            <span>&#169 Aman Project. 2022</span>
-          </p>
-        </div>
-      </div>
-
-      <div class="social-div">
-
-        <!-- Twitter -->
-        <a href="#">
-          <i class="fa fa-twitter" style="font-size:24px"></i>
-        </a>
-
-        <!-- Instagram -->
-        <a href="#">
-          <i class="fa fa-instagram" style="font-size:24px"></i>
-        </a>
-
-        <!-- Facebook -->
-        <a href="#">
-          <i class="fa fa-facebook-square" style="font-size:24px"></i>
-        </a>
-
-        <!-- LinkedIn -->
-        <a href="#">
-          <i class="fa fa-linkedin-square" style="font-size:24px"></i>
-        </a>
-
-
-        <!-- Pinterest -->
-        <a href="#">
-          <i class="fa fa-pinterest" style="font-size:24px"></i>
-        </a>
-
-        <button href="#"><i class="fa fa-ioxhost" style="font-size:18px"><span>English</span></i></button>
-
-        <button href="#"><i class="fa fa-dollar" style="font-size:18px"><span>Currency</span></i></button>
-
-
-      </div>
-    </div>
-  </div>
+    <!-- Footer End -->
 
 
 
 
 
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items: 5,
+            loop: true,
+            margin: 20,
+            autoplay: true,
+            autoplayTimeout: 6000,
+            autoplayHoverPause: true
+        });
 
 
-  <!-- Optional JavaScript; choose one of the two! -->
+        const closetab = () => {
+            document.querySelector('.coupon-page').style.visibility = 'hidden';
+            document.querySelector('.mainslider').style.opacity = '100';
+        };
 
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+    </script>
 
-  <!-- Option 2: Separate Popper and Bootstrap JS -->
-  <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
+    <!-- JS File -->
+    <script src="JS/home.js"></script>
+
 </body>
 
 </html>
