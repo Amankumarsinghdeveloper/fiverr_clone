@@ -36,7 +36,7 @@
             <h1>PUJA OFFER<span class="close-img"><ion-icon name="close-circle-outline" onclick="closetab()"></ion-icon></span>
             </h1>
             <p>We are giving<br><span class="coupon-50">50% OFF</span><br>on every Order</p>
-            <img src="images/50.png">
+            <!-- <img src="images/50.png"> -->
             <h3>USE CODE PUJASALE22</h3>
 
             <div class="copy-link-box">
@@ -550,7 +550,8 @@
 
         const closetab = () => {
             document.querySelector('.coupon-page').style.visibility = 'hidden';
-            document.querySelector('.mainslider').style.opacity = '100';
+            document.querySelector('.mainslider').style.opacity = '1';
+            document.style.overflow = 'scroll'
         };
 
     </script>

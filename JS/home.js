@@ -37,10 +37,17 @@ document.querySelectorAll(".copy-link").forEach((copyLinkParent) => {
 // let x = document.querySelector(".mainslider");
 
 window.onload = function () {
-    setTimeout(function () {
-      document.querySelector(".mainslider").style.backgroundImage = ('url("https://i.ibb.co/5B3G5mZ/bg-hero-3-1792-x1.webp")')
-    }, 3000);
-    setTimeout(function () {
-      document.querySelector(".mainslider").style.backgroundImage = ('url("https://i.ibb.co/yyK44dw/bg-hero-5-1792-x1.webp")')
-    }, 6000);
+  document.body.style.overflow = 'hidden';
+}
+
+
+window.onload = function () {
+  setTimeout(function () {
+    document.querySelector(".mainslider").style.backgroundImage = ('url("https://i.ibb.co/5B3G5mZ/bg-hero-3-1792-x1.webp")')
+  }, 3000);
+  setTimeout(function () {
+    document.querySelector(".mainslider").style.backgroundImage = ('url("https://i.ibb.co/yyK44dw/bg-hero-5-1792-x1.webp")')
+  }, 6000);
+
 };
+
