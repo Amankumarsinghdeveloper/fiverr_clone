@@ -867,6 +867,42 @@ nav li {
   .copy-link-button:hover {
     background: #cccccc;
   }
+
+  .weather {
+    height: 3rem;
+    width: 10rem;
+    background-color: transparent;
+    float: right;
+  }
+
+  #temp-icon {
+    width: 30%;
+    background-color: transparent;
+    float: left;
+    padding-left: 5%;
+    margin-right: 5%;
+}
+
+#temp img {
+    float: left;
+    background-color: transparent;
+}
+
+#temp span{
+    font-weight: bold;
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+#temp p {
+    font-size: 2rem;
+    background-color: transparent;
+    margin-left: 1rem;
+}
+
+#temp {
+    background-color: transparent;
+}
   
 
 

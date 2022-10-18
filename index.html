@@ -33,18 +33,21 @@
 <body class="">
     <div class="coupon-page">
         <div class="coupon-box">
-            <h1>PUJA OFFER<span class="close-img"><ion-icon name="close-circle-outline" onclick="closetab()"></ion-icon></span>
+            <h1>PUJA OFFER<span class="close-img">
+                    <ion-icon name="close-circle-outline" onclick="closetab()"></ion-icon>
+                </span>
             </h1>
             <p>We are giving<br><span class="coupon-50">50% OFF</span><br>on every Order</p>
             <!-- <img src="images/50.png"> -->
             <h3>USE CODE PUJASALE22</h3>
 
             <div class="copy-link-box">
-            <div class="copy-link">
-                <input type="text" class="copy-link-input" value="PUJASALE22" readonly>
-                <button type="button" class="copy-link-button"><ion-icon name="copy-outline"></ion-icon>
-              </div>
-              </div>
+                <div class="copy-link">
+                    <input type="text" class="copy-link-input" placeholder="CODE" value="PUJASALE22" readonly>
+                    <button type="button" class="copy-link-button" title="Copy" >
+                        <ion-icon name="copy-outline"></ion-icon>
+                </div>
+            </div>
         </div>
     </div>
     <div class="mainslider">
@@ -66,6 +69,12 @@
                         <li><a class="navbar-link join-button" href="#">Join</a></li>
                     </ul>
                 </nav>
+                <div class="weather">
+                    <div id="temp">
+                        <img id="temp-icon" src="./icons/sun.svg" alt="">
+                        <p><span id="temp-value">-----</span> <span id="temp-unit">&#176c</span> </p>
+                    </div>
+                </div>
 
                 <div class="light_dark-btn">
                     <ion-icon name="moon-outline" class="light_dark-icon"></ion-icon>
@@ -551,7 +560,6 @@
         const closetab = () => {
             document.querySelector('.coupon-page').style.visibility = 'hidden';
             document.querySelector('.mainslider').style.opacity = '1';
-            document.style.overflow = 'scroll'
         };
 
     </script>
