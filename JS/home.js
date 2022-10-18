@@ -108,13 +108,7 @@ window.addEventListener("load", () => {
             tempicon.src = "./icons/clouds-and-sun.svg"
           }
 
-
-
-
-
           console.log(data);
-
-
         })
 
 
