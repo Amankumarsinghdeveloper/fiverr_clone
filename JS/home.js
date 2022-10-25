@@ -46,8 +46,20 @@ window.onload = function () {
     document.querySelector(".mainslider").style.backgroundImage = ('url("https://i.ibb.co/5B3G5mZ/bg-hero-3-1792-x1.webp")')
   }, 3000);
   setTimeout(function () {
-    document.querySelector(".mainslider").style.backgroundImage = ('url("https://i.ibb.co/yyK44dw/bg-hero-5-1792-x1.webp")')
+    document.querySelector(".mainslider").style.backgroundImage = ('url("https://i.ibb.co/9NJMyJW/bg-hero-1-1792-x1.webp")')
   }, 6000);
+  setTimeout(function () {
+    document.querySelector(".mainslider").style.backgroundImage = ('url("https://i.ibb.co/xhPxtSB/bg-hero-2-1792-x1.webp")')
+  }, 9000);
+  setTimeout(function () {
+    document.querySelector(".mainslider").style.backgroundImage = ('url("https://i.ibb.co/F6BF5J7/bg-hero-4-1792-x1.webp")')
+  }, 12000);
+  setTimeout(function () {
+    document.querySelector(".mainslider").style.backgroundImage = ('url("https://i.ibb.co/xhPxtSB/bg-hero-2-1792-x1.webp")')
+  }, 15000);
+  setTimeout(function () {
+    document.querySelector(".mainslider").style.backgroundImage = ('url("https://i.ibb.co/yyK44dw/bg-hero-5-1792-x1.webp")')
+  }, 18000);
 
 };
 
@@ -70,7 +82,6 @@ window.addEventListener("load", () => {
 
       long = position.coords.longitude;
       lat = position.coords.latitude;
-      const proxy = "https://cors-anywhere.herokuapp.com/";
 
 
       const api = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=dab3af44de7d24ae7ff86549334e45bd`
