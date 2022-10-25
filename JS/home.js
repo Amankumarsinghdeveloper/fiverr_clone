@@ -96,7 +96,7 @@ window.addEventListener("load", () => {
         .then(data => {
 
           const { feels_like } = data.main;
-          const { id} = data.weather[0];
+          const { id } = data.weather[0];
 
 
           tempvalue.textContent = Math.round(feels_like - 273);
